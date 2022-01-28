@@ -1,1 +1,1 @@
-# Aruzhan-Bissimbaeva
+# Aruzhan-Bissimbayeva
