@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+  </head>
+  <body>
+//task #1
+    <h2>Practice Java Script</h2>
+    <p id = "displayDateTime"></p>
+    <p>My name is: Aruzhan</p>
+    <p>My group is: CS-2122</p>
+
+//task #2
+
+
+    <h2 id="displayDateTime"></h2>
+    <script>
+    var today = new Date();
+    var day = today.getDay();
+    var year = today.getFullYear();
+    var data = today.getDate();
+    var month= today.getMonth() + 1;
+    var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+    var date = today.getFullYear()+'<br>'+ (today.getMonth() + 1) + '<br>' + today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date+' '+time;
+    document.getElementById("displayDateTime").innerHTML = dateTime + ' <br> Today is :- ' + daylist[day] +
+    ' <br> Year :- ' + [year] + ' <br> Date :- ' + [data] + ' <br> Month :- ' + [month];
+    </script>
+
+//task #3
+
+  <script>
+    function getNumberOfDays(firstDay, lastDay) {
+        const date1 = new Date(firstDay);
+        const date2 = new Date(lastDay);
+
+        const oneDay = 1000 * 60 * 60 * 24;
+
+        const diffInTime = date2.getTime() - date1.getTime();
+
+        const diffInDays = Math.round(diffInTime / oneDay);
+
+        return diffInDays;
+    }
+    console.log(getNumberOfDays("2/1/2021", "3/1/2021"));
+    </script>
+    //task #4
+    <script>
+    <form>
+    first number :
+    <input type="text" id = "1st Number"> /> <br>
+    second number:
+    <input type="text" id = "2nd Number"> /> <br>
+    <input type="button" onClick = "multiplyBy() Value = "Multiply"/>
+    <input type="button" onClick = "divideBy() Value = "Divide"/>
+    </form>
+    <p> The Result is: <br>
+    <span id = "result"> </span>
+    </p>
+    </script>
+    <script src="java.js" charset="utf-8"></script>
+  </body>
+</html>
