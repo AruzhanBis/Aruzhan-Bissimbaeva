@@ -1,0 +1,20 @@
+body {
+  background-color: snow;
+}
+
+.container {
+  padding: 15px;
+  background-color: white;
+}
+
+input[type=text], input[type=password] {
+  width: 95%;
+  padding: 10px;
+  margin: 8px 20px 25px 0;
+  background: white;
+}
+
+.submit-btn {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
