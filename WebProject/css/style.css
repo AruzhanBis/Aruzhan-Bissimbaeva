@@ -3,6 +3,11 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+.btn1{
+  background-color: #008CBA;
+ cursor: pointer;
+
+}
 
 .nav{
   display: flex;
@@ -75,11 +80,6 @@ font-size: 60px;
     padding: 30px;
   }
 }
-
-.bg{
-  background-color: #C1C1C1;
-}
-
   .container {
       width: 100%;
       padding-right: 20px;
@@ -96,9 +96,10 @@ font-size: 60px;
 
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+  margin-left: 50px;
+  margin-right: 30px;
+  padding: 50px;
+  width: 50%;
 }
 
 .icons .fa{
@@ -107,3 +108,29 @@ font-size: 60px;
   cursor: pointer;
   padding: 18px 0;
 }
+.rgstr{
+  padding: 50px;
+  background-color: #f1f1f1;
+  justify-content: center;
+  width: 40%;
+  margin-left: 550px;
+}
+
+input[type=text], input[type=password] {
+  width:95%;
+  padding: 10px;
+  margin: 8px 20px 25px 0;
+  background: #ececec;
+  display: inline-block;
+  border: none;
+}
+
+.submit-btn {
+  color: white;
+  cursor: pointer;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 50%;
+  background-color: #0b5168;
+  opacity: 0.8;

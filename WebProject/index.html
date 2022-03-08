@@ -8,10 +8,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,400,400i,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet" class="next-head">
-
     <link rel="icon" href="css/favicon.ico">
     <title> Worth-visiting places of Nur-Sutan</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
 <body>
   <section class="header">
@@ -39,72 +39,174 @@
 <i class="fa fa-bars" onclick="showMenu()"></i>
 </nav>
   </section>
+        <div class="text-box" id="slide" >
 
-        <div class="text-box">
-          <h1> <strong>Top 5 places to visit in Nur-Sultan </strong></h1>
-          <h3>Welcome to Website! </h3> <p> Here you can find <strong>5 wonderful places</strong>, which will lead to unforgettable experience.</p>
-          <button type="button" class="btn btn-outline-primary btn-lg"> Let's begin </button>
-        </div>
+            <h1> <strong>Top 5 places to visit in Nur-Sultan </strong></h1>
+            <h3>Welcome to Website! </h3> <p> Here you can find <strong>5 wonderful places</strong>, which will lead to unforgettable experience.</p>
+            <button type ="button" class="btn btn-outline-primary btn-lg"> Let's begin </button>
+          </div>
 
+          <script >
+
+          </script>
+
+          <br>
 <br>
-<br>
-<div class="container" class="bg">
 
 
-        <div class="container" class="center" >
-          <div class="col-sm-7">
-              <h2><b>The Duman Entertainment Center</b></h2>
+  <form action="/action_page.php">
+<div class="rgstr" id="rgslide">
+<h2>Registration form</h2>
+<p> Please fill out a registration form and submit it to create an account.</p>
+<hr>
+<label for="usrnme"><strong>Username</strong></label>
+<input type="text" placeholder="Enter Username" name="usrnme" id="usrnme" required>
+
+<label for="psw"><strong>Password</strong></label>
+<input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+<label for="psw-confirm"><strong>Confirm Password</strong></label>
+<input type="password" placeholder="Confirm Password" name="psw-confirm" id="psw-confirm" required>
+<hr>
+<button type="submit" class="submit-btn">Submit</button>
+</div>
+</form>
+
+
+<div class="container" class="center"  >
+
+
+            <h2><b>The Duman Entertainment Center</b></h2>
             <h5>It was established in 2003</h5>
             <hr>
+            <button type="button "class="btn btn-warning" id = "btn1h">Hide the text</button>
+            <button type="button " class="btn btn-primary" id = "btn1s">Show the text</button>
+            <div id="slide1">
+              <br>
+
             <p >
-                <strong>    The "Duman" Entertainment Center </strong> is a popular hangout for both locals and visitors to the city. This huge building, equipped with cutting-edge technology, offers a wide range of
-                exciting entertainment options.
+                <strong>    The "Duman" Entertainment Center </strong> is a popular hangout for both locals and visitors to the city. <br> This huge building, equipped with cutting-edge technology, offers a wide range of
+                exciting entertainment options.<br>
                 The aquarium is the most appealing aspect of "Duman", and it will provide you with a fantastic adventure.
-                <br><p>In the "Duman" entertainment complex, <strong>Kazakhstan's first digital 5D cinema </strong> debuted, immersing the audience in a virtual environment
+                <br><p>In the "Duman" entertainment complex, <strong>Kazakhstan's first digital 5D cinema </strong> debuted, immersing the audience <br> in a virtual environment
                 while providing a sense of full realism of what is happening.</p>
-                To begin with, they are capsule armchairs, which feel even the slightest
-                turns and vibrations. Everyone may be transported to a whole other world here – dive into the water, fly through the sky, and start on an exciting adventure.
-                <br><strong>The Domed Hall</strong>, which is separated into four thematic zones: <strong><em>Kazakhstan, America, Greece, and China</em></strong>, is also popular with visitors to
+                <p>To begin with, they are capsule armchairs, which feel even the slightest
+                turns and vibrations. <br> Everyone may be transported to a whole other world here – dive into the water, fly through the sky, and start on an exciting adventure.</p>
+            <strong><p>The Domed Hall</strong>, which is separated into four thematic zones: <strong><em>Kazakhstan, America, Greece, and China</em></strong>, is also popular with <br> visitors to
                  the Duman Entertainment Center. This hall has a museum with small copies of architectural landmarks from all over the world.
               </p>
-            <div class="text" ><img src="css/images/duman1.jpg" class="center"  >
-            <a href="https://amsterdamtravel.ru/images/okeanariumvastanercdumantseninabiletivok_541D4C28.jpg"><br>Source</a>
-            </div>
-            <br>
-            <br>
-            <div class="text" ><img src="css/images/duman2.jpg" class="center"   >
-              <a href="https://blog.dookinternational.com/wp-content/uploads/2018/02/a3.jpg"> <br>Source</a>
-          </div>
-      <br>
+                </div>
 
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                <style>
+                .carousel-inner > .item > img,
+                .carousel-inner > .item > a > img {
+                  width: 70%;
+                  margin: auto;
+                }
+                </style>
+              </head>
+              <body>
 
+              <div class="container">
+                <br>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                  </ol>
+                  <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                      <img src="css/images/duman1.jpg" alt="duman1" width="460" height="345">
+                      <div class="carousel-caption">
+                        <h5>Duman</h5>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                      <img src="css/images/duman2.jpg" alt="duman2" width="460" height="345">
+                      <div class="carousel-caption">
+                        <h5>Duman</h5>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+<br>  <br>
 <div class="container-fluid" class="center">
   <button type="button" class="btn btn-info"><a href="https://www.sputnik8.com/ru/astana/sights/okeanarium/info">Read More</a> </button>
       <br>  <br>
         <h2><b>Ice Palace "Alau"</b></h2>
         <h5>It was established in 2011</h5>
         <hr>
-
+        <button type="button " class="btn btn-warning"id = "btn2h">Hide the text</button>
+        <button type="button " class="btn btn-primary" id = "btn2s">Show the text</button>
+        <div id="slide2">
+          <br>
         <p style="text-align:justify;">
           <blockquote class="blockquote-reverse">
         <i>"Alau is a unique sports facility that is designed to serve not only future Olympians,<br> but also to become a center for the development of mass sports."</i>
       <footer> — N.A. Nazarbayev, 2011 </footer>
           </blockquote>
-            <p>
-            <strong>The Ice Palace "Alau" </strong>  is a world-class ice palace equipped with state-of-the-art equipment that allows you to create <em>"fast ice"</em>. Due to its unique architecture and location, the building is rightfully considered a landmark and a sports gate of the capital.
-  <br>
-  <strong> Since 2011 </strong>, the champion ice has been available to amateurs — on the days of mass skating, everyone can skate.
-  The heart of the palace is the ice arena, which consists of a <i>400-meter skating track with stands for 7,462 seats, 2 hockey courts, a hall of the judging panel, a hall for holding press conferences, 13 locker rooms for athletes</i>.
-  <br> The total area of the sports complex is 65,481 m2.
-  During the <strong>7th Asian Winter Games, 9 continental records </strong> were set on the ice of the palace.
+            <p><strong>The Ice Palace "Alau" </strong>  is a world-class ice palace equipped with state-of-the-art equipment that allows you to create <em>"fast ice"</em>.<br>
+             Due to its unique architecture and location, the building is rightfully considered a landmark and a sports gate of the capital.<br></p>
+  <p> <strong> Since 2011 </strong>, the champion ice has been available to amateurs — on the days of mass skating, everyone can skate.
+  <br>The heart of the palace is the ice arena, which consists of a <i>400-meter skating track with stands for 7,462 seats, 2 hockey courts, <br> a hall of the judging panel, a hall for holding press conferences, 13 locker rooms for athletes</i>.
+  <br> The total area of the sports complex is 65,481 m2.<br></p>
+  <p>During the <strong>7th Asian Winter Games, 9 continental records </strong> were set on the ice of the palace.
   </p>
-        <div class="text"><img src="css/images/alau2.jpg" class="center"  >
-        <a href="https://nur-sultan3d.kz/upload/000/u1/c/9/ledovyi-dvorec-alau-photos-big.jpg">
-        <br> Source </a>
+  </div>
+  <div class="container">
+    <br>
+    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel2" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <img src="css/images/alau2.jpg" alt="alau1" width="460" height="345">
+          <div class="carousel-caption">
+            <h5>Duman</h5>
+            </div>
         </div>
-        <br>
-        <div class="text"><img src="css/images/alau1.jpg" class="center" >
-          <a href="http://olympic.kz/images/1554876560.jpg"> <br> Source </a>
+
+        <div class="item">
+          <img src="css/images/alau1.jpg" alt="alau2" width="460" height="345">
+          <div class="carousel-caption">
+            <h5>Alau</h5>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
           <br>
           <br>
     <button type="button" class="btn btn-info"><a href="https://www.alau.info/rus/massovye_kataniya/">Read More</a> </button>
@@ -114,6 +216,10 @@
         <h2><b>"Nur Alem" - Future Energy Museum</b></h2>
         <h5>It was established in 2017</h5>
         <hr>
+        <button type="button " class="btn btn-warning"id = "btn3h">Hide the text</button>
+        <button type="button " class="btn btn-primary" id = "btn3s">Show the text</button>
+        <div id="slide3">
+          <br>
 <p >
             <strong>EXPO-2017, "Nur-Alem" sphere </strong>  is the <em>first</em> technological museum of future energy in Kazakhstan.
             The museum is located on 8 floors, where each has a certain conceptual idea:</p>
@@ -127,36 +233,59 @@
       <li>"National Pavilion”</li>
       <li>"Future Astana”</li>
     </ul>
-
-    <p>In addition, visitors are encouraged to start exploring the museum from the top floor, as it will introduce you to upcoming projects   that will be implemented in the capital of Kazakhstan.
-    Entertaining presentations dedicated to a specific topic are held on all floors. So, for example, in the <b>"Energy of Space" </b>you can spend time in the planetarium, and the children will definitely be delighted with
-    performing experiments on the floor of the <b>“Energy of Biomass”</b>. <strong>"Nur Alem"</strong> is equipped with the most modern technical facilities and combines
+    <p>In addition, visitors are encouraged to start exploring the museum from the top floor, as it will introduce you to upcoming projects   that will be implemented in the capital of Kazakhstan.</p>
+    <p>Entertaining presentations dedicated to a specific topic are held on all floors. So, for example, in the <b>"Energy of Space" </b>you can spend time in the planetarium, and the children will definitely be delighted with
+    performing experiments on the floor of the <b>“Energy of Biomass”</b>.<p> <strong>"Nur Alem"</strong> is equipped with the most modern technical facilities and combines
     a lot of interesting and informative things that will not leave indifferent either a child or an adult.</p>
-        <div class="text"><img src="css/images/expo1.jpg" class="center" >
-        <a href="https://www.google.kz/url?sa=i&url=https%3A%2F%2Fnewsroom.kz%2Forys%2Forregions%2Fgorodnursultan0423988.html&psig=AOvVaw3AkgbQBYhtwI9cKTL8-FO-&ust=1645438526064000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjrnq6GjvYCFQAAAAAdAAAAABAh">
-        <br> Source </a>
+  </div>
+    <div class="container">
+      <br>
+      <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel3" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active">
+            <img src="css/images/expo1.jpg" alt="expo1" width="460" height="345">
+            <div class="carousel-caption">
+              <h5>Expo</h5>
+              </div>
+      </div>
+          <div class="item">
+            <img src="css/images/expo2.jpg" alt="expo2" width="460" height="345">
+            <div class="carousel-caption">
+              <h5>Expo</h5>
+            </div>
+          </div>
         </div>
-        <br>
-        <div class="text"><img src="css/images/expo2.jpg" class="center" >
-          <a href="https://www.google.kz/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgwjRqQERRNk&psig=AOvVaw3AERkQbGrcKe1pz9sfsXZO&ust=1645444092400000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKj6-YqbjvYCFQAAAAAdAAAAABAD"> <br> Source </a>
+        <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-     <br>
-
-
-
+  <br>
     <button type="button" class="btn btn-info"><a href="http://cyclowiki.org/wiki/Нур_Алем">Read More</a> </button>
-        <br>
-        <br>
-
+      <br>
+    <br>
           <h2><b>National Museum of the Republic of Kazakhstan</b></h2>
-          <h3 class="content-subtitle content-subtitle--line">The largest museum in Central Asia</h3>
+          <h4 class="content-subtitle content-subtitle--line">The largest museum in Central Asia</h4>
           <h5>It was established in 2014</h5>
           <hr>
-
-              <p >This recently built museum has already become a landmark of the whole country. Remarkable archaeological monuments and artifacts are presented here.
+          <button type="button " class="btn btn-warning" id = "btn4h">Hide the text</button>
+          <button type="button " class="btn btn-primary" id = "btn4s">Show the text</button>
+          <div id="slide4">
+            <br>
+          <p >This recently built museum has already become a landmark of the whole country. Remarkable archaeological monuments and artifacts are presented here.
                 Anyone has an opportunity to visit the National Museum on their own or with a guide. It is indisputable that a tour to this amazing place will enrich your knowledge about Kazakhstan.</p>
-                <p>The National Museum is composed of the following halls:
+          <p>The National Museum is composed of the following halls:
           <ul>
             <li>Hall of Astana</li>
             <li>Hall of Independent Kazakhstan</li>
@@ -167,41 +296,107 @@
             <li>Halls of Modern Art</li>
           </ul>
             Each of them allows visitors to make an unforgettable journey in time.</p>
-          <div class="text"><img src="css/images/museum1.jpg" class="center" >
-          <a href="  https://www.google.com/url?sa=i&url=https%3A%2F%2Fkazakhstan.travel%2Ftourist-spot%2Fen%2F184%2Fnational-museum-of-the-republic-of-kazakhstan&psig=AOvVaw2ihB_sZJclCtlWpi9dlnkU&ust=1645466496401000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNix58HujvYCFQAAAAAdAAAAABAJ
-"><br>Source</a>
-          </div>
-          <br>
-          <div class="text"><img src="css/images/museum2.jpg" class="center" >
-            <a href="https://www.astana-kazakhstan.net/wp-content/uploads/2015/04/DSC_07523.jpg"> <br>Source</a>
-        </div>
+  </div>
+
+            <div class="container">
+              <br>
+              <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel4" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+
+                  <div class="item active">
+                    <img src="css/images/museum1.jpg" alt="museum1" width="460" height="345">
+                    <div class="carousel-caption">
+                      <h5>Museum</h5>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <img src="css/images/museum2.jpg" alt="museum2" width="460" height="345">
+                    <div class="carousel-caption">
+                      <h5>Museum</h5>
+                    </div>
+                  </div>
+
+                </div>
+
+                <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+
         <br>
         <br>
   <button type="button" class="btn btn-info"><a href="https://www.tourister.ru/world/asia/kazakhstan/city/astana/museum/24078">Read More</a> </button>
       <br><br>
 
-      <h2><b>"Bauterek" monument</b></h2>
-      <h3 class="content-subtitle content-subtitle--line">The symbol of Nur-Sultan</h3>
+      <h2><b>"Baiterek" monument</b></h2>
+      <h4 class="content-subtitle content-subtitle--line">The symbol of Nur-Sultan</h4>
       <h5>It was established in 2002</h5>
       <hr>
-          <p > <b> "Baiterek" Monument</b> remains a real symbol of the capital, despite the surrounding high-rise buildings. From the height of 98 meters you can see the whole city.
-            A modern art gallery with LED screens has opened here. Another innovation is a crystal chandelier in the shape of legendary birds under the dome of the monument delivered from the Czech Republic. After visit to Baiterek,
-            the tourists can stroll along <b>Nurzhol Boulevard</b> and watch the festival of contemporary art <b>"ArtFest"</b>.</p>
+      <button type="button " class="btn btn-warning" id = "btn5h">Hide the text</button>
+      <button type="button " class="btn btn-primary"id = "btn5s">Show the text</button>
+      <div id="slide5">
+        <br>
+          <p > <b> "Baiterek" Monument</b> remains a real symbol of the capital, despite the surrounding high-rise buildings. </p>
+          <p>From the height of 98 meters you can see the whole city.<br>
+            A modern art gallery with LED screens has opened here. Another innovation is a crystal chandelier in the shape of legendary birds under the dome of the monument delivered from the Czech Republic. </p>
+            <p>After visit to Baiterek,the tourists can stroll along <b>Nurzhol Boulevard</b> and watch the festival of contemporary art <b>"ArtFest"</b>.</p>
             <br>
             <p>Bayterek, embodying the idea of a state looking to the future, has a utilitarian significance.
               On the underground level (at minus 4.5 meters) there located <b>an aquarium, a cafe and a small art gallery</b>.</p>
+  </div>
+              <div class="container">
+                <br>
+                <div id="myCarousel5" class="carousel slide" data-ride="carousel">
 
-            <div class="text"><img src="css/images/baiterek.jpg" class="center" >
-            <a href="  https://putidorogi-nn.ru/images/stories/aziya/kazahstan/bayterek_2.jpg  "><br>Source</a>
-            </div>
-            <br>
-            <div class="text"><img src="css/images/baiterek2.jpg" class="center" >
-              <a href="https://putidorogi-nn.ru/images/stories/aziya/kazahstan/bayterek_6.jpg"> <br>Source</a>
-          </div>
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel5" data-slide-to="1"></li>
+                  </ol>
+                  <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                      <img src="css/images/baiterek.jpg" alt="baiterek1" width="460" height="345">
+                      <div class="carousel-caption">
+                        <h5>Baiterek</h5>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                      <img src="css/images/baiterek2.jpg" alt="baiterek2" width="460" height="345">
+                      <div class="carousel-caption">
+                        <h5>Baiterek</h5>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <a class="left carousel-control" href="#myCarousel5" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel5" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+<br><br>
+
+
           <br>
-
         </div>
-      </div>
 
     <br>
       <button type="button" class="btn btn-info"><a href="https://putidorogi-nn.ru/aziya/74-monument-baiterek">Read More</a> </button>
@@ -224,11 +419,10 @@
     © 2022 Made with
     <a class="text-white" href="https://atom.io">Atom.com </a>
   </div>
-</div>
-
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
 <script src="java.js" charset="utf-8"></script>
 
   </body>
